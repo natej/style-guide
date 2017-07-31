@@ -522,7 +522,7 @@ Instead of using many ``elif`` statements, consider using a dictionary.  This al
         'eight': 8,
         'nine': 9,
     }
-    numbers.append(translation.get(n, " "))
+    numbers.append(words_to_digits.get(n, ' '))
 
 
 Strings
